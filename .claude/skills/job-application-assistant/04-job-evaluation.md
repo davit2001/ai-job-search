@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React.js, Next.js, TypeScript, JavaScript, HTML/CSS/SCSS, frontend architecture, design systems, performance optimization, monorepo (Turborepo), testing (Jest/RTL), UI libraries (MUI, Tailwind, shadcn), CI/CD, real-time (WebSocket/WebRTC), 3D/canvas (Three.js, PixiJS), AI integrations (OpenAI, RAG)
+**Moderate match areas:** Node.js, NestJS, PostgreSQL, GraphQL, REST API design, Docker, Datadog observability
+**Weak match areas:** Mobile (React Native / Flutter), pure backend/infra-heavy roles, data engineering, DevOps/SRE primary, non-JS languages (Python, Go, Java) as primary requirement
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Frontend engineer, full-stack engineer (frontend-led), UI/platform engineer, frontend architect, senior frontend developer — 6 years in product companies, including remote EU startup and Armenia-based SaaS/EdTech
+**Moderate:** Full-stack roles with significant backend scope (Node.js/NestJS), technical lead roles, engineering manager (adjacent — has mentored but not managed formally)
+**Entry-level:** Pure backend, data engineering, mobile, DevOps/SRE
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Senior/Lead Frontend Engineer role at a product company with real architectural ownership
+- Deepen expertise in frontend platform, design systems, and performance engineering
+- Build toward a Staff/Principal engineer track over 3–5 years
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: frontend architecture decisions, performance optimization, building design systems/SDKs, real-time features, AI product integrations, mentoring, greenfield/migration projects
+- Tasks that drain: pure legacy maintenance with no improvement mandate, excessive meetings, feature factory work with no engineering ownership
+- Non-task factors: async-remote culture, technical autonomy, team quality, company product direction
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Actively seeking — Partao role ended June 2026, looking for next role now. Salary floor: $3,000 USD/month for full-time.
+- **Flexibility**: No relocation; remote worldwide or Yerevan on-site acceptable. Pursuing MSc at AUA (part-time, evenings) — full-time employment compatible.
+- **Professional development**: Grow into senior/lead scope; continue deepening TypeScript/React ecosystem expertise and AI integrations
 
 ### 6. Salary Benchmark (Optional)
 

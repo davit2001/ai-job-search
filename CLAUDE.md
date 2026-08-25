@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Davit Hakobyan
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Davit Hakobyan, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +13,95 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Davit Hakobyan
+- **Location:** Yerevan, Armenia (no relocation; remote worldwide or Armenia on-site/hybrid only)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Professional working proficiency |
+  | Armenian | Native |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Available — most recent role at Partao ended June 2026
+- **LinkedIn headline:** "Frontend Engineer | React · Next.js · TypeScript | 6 Years Building High-Performance Web Apps"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master of Computer Science** (June 2024 - present) - American University of Armenia (AUA)
+- **Bachelor of Computer Engineering** (Sep 2019 - Jun 2023) - National Polytechnic University of Armenia (NPUA)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer** (Feb 2025 - Jun 2026) - **Partao** (Luxembourg-based · Remote)
+  - Led full Magento-to-Next.js migration and redesign from Figma at an early-stage startup
+  - Established CI/CD pipelines with GitHub Actions + ESLint/Prettier, reducing deployment time by 60%
+  - Built modular monorepo architecture with Turborepo, managing three apps (web, SDK, admin) with shared libraries
+  - Developed UI SDK with Vite to bridge design system between Next.js and Magento
+  - Created new backend API using NestJS
+  - Implemented Datadog integration for real-time performance monitoring, error tracking, and E2E test reporting
+  - Mentored frontend developers through onboarding and created technical documentation
+  - Integrated GitHub MCP for automated PR creation via Cursor commands
+
+- **Frontend Engineer** (Jul 2023 - Nov 2024) - **BeeWeb** (Armenia)
+  - Refactored legacy components with code splitting, lazy loading, and caching — 30% load time improvement
+  - Built high-performance 3D landing pages with Three.js and React Three Fiber
+  - Designed product features in React/Next.js/Material UI; integrated RESTful APIs via React Query and GraphQL via Apollo Client
+  - Implemented JWT auth and WebSocket-based real-time notifications
+  - Established testing strategy with Jest and React Testing Library — 80% code coverage
+  - Integrated OpenAI API and vector database to build a RAG system for document Q&A
+
+- **Frontend Engineer** (May 2021 - Apr 2023) - **InconceptLabs** (Armenia)
+  - Developed core features for high-performance digital whiteboard platform (online tutoring)
+  - Proposed and implemented PixiJS (WebGL) integration — 40% improvement in GPU-intensive rendering
+  - Implemented WebRTC-based audio/video conferencing with LiveKit
+  - Optimized app performance with Firebase — 30% speed increase
+  - Added Desmos integration for interactive math in tutoring sessions
+
+- **Frontend Engineer** (Jun 2020 - Jul 2021) - **Imea Systems** (Armenia)
+  - Enhanced UX through intuitive site structure, navigation patterns, and performance optimizations
+  - Refactored legacy codebase into clean, reusable, scalable components
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React.js, Next.js, TypeScript, JavaScript, HTML5/CSS3/SCSS
+- **Secondary:** Node.js, NestJS, PostgreSQL, Redux, React Query, GraphQL/Apollo Client, REST APIs
+- **Domain:** Frontend architecture, performance optimization, design systems, monorepo (Turborepo), real-time (WebSockets, WebRTC), 3D web (Three.js, PixiJS/WebGL), AI integrations (OpenAI, RAG)
+- **Software/Tools:** Git, Docker, CI/CD (GitHub Actions), Datadog, Storybook, Vite, Jest, React Testing Library, Material UI, Tailwind, shadcn/ui, Antd, Figma, Firebase, LiveKit
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+<!-- None listed on CV -->
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None listed on CV -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+<!-- None listed on CV -->
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Proactive problem-solver** - Identifies issues (rendering bottlenecks, deployment friction) and proposes concrete solutions before being asked
+- **Quality-driven** - Consistently delivers measurable results: 30–60% performance improvements, 80% test coverage
+- **Technical leader** - Mentors peers, creates documentation, establishes team standards
+- **Strengths:** Frontend architecture, performance tuning, shipping fast in small teams, cross-functional collaboration with design
+- **Growth areas:** Broadening backend/DevOps ownership beyond what frontend work requires
+- **Thrives in:** Product companies, small-to-mid engineering teams, async/remote-friendly culture, roles with ownership over technical decisions
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building fast, polished, accessible user interfaces that real users love
+- Technical architecture decisions — monorepos, design systems, performance budgets
+- AI-augmented development and integrating AI features into product (RAG, OpenAI, agentic tooling)
+- Mentoring and growing junior engineers
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Product startups / scale-ups (SaaS, B2B tools, developer tools):** Vercel, Linear, Notion, Loom, Retool, or similar
+- **EdTech / collaboration platforms:** whiteboard/tutoring tools, real-time collaboration products
+- **Armenia tech hubs (on-site):** Picsart, ServiceTitan, Krisp, Coda, Renderforest
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Relocation required (hard stop — Yerevan-based only)
+- LATAM-only roles (timezone and market fit; remote worldwide is fine)
+- Salary below $3,000 USD/month equivalent for full-time
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
