@@ -17,7 +17,17 @@ Primary:
 - **linkedin.com/jobs** — global remote + Armenia on-site; covered by `linkedin-search` CLI
 - **freehire.me** — tech-focused global aggregator (~50 ATS platforms); covered by `freehire-search` CLI
 
-Secondary (WebSearch fallback — company career pages):
+Secondary (WebSearch fallback — ATS direct + company career pages):
+
+**Boolean ATS queries** (paste into Google or use as WebSearch queries — hits ATS postings before aggregators index them):
+- `site:lever.co "frontend engineer" OR "react developer" -inurl:apply`
+- `site:greenhouse.io "frontend engineer" OR "ui architect" -inurl:apply`
+- `site:lever.co "full stack engineer" OR "full stack developer" react -inurl:apply`
+- `site:greenhouse.io "full stack engineer" typescript react -inurl:apply`
+- `site:jobs.ashbyhq.com "frontend engineer" OR "react developer" -inurl:apply`
+- `site:lever.co "software engineer" react typescript remote -inurl:apply`
+
+**Standard site queries:**
 - `site:greenhouse.io "frontend engineer" OR "frontend developer" remote`
 - `site:lever.co "frontend engineer" OR "frontend developer" remote`
 - `site:jobs.ashbyhq.com "frontend engineer" react`
